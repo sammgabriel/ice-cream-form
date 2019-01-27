@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* This file contains CSS for Arendelle Ice Cream Parlor's order form page */
+
+/*
+
+   Author Name: Samantha Gabriel
+   Date: October 9, 2018
+   File name: ice-cream-form.css
+
+*/
+
+/* Header Styles */
+h1 {
+    text-align: center;
+}
+
+/* Body Styles */
+body {
+
+    font-family: fantasy;
+    background-color: lightskyblue;
+}
+
+/* Div Styles */
+div {
+    padding: 20px;
+    margin: auto;
+}
+
+/* ID Styles */
+#home {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+}
+
+/* Fieldset Styles */
+fieldset {
+    margin-bottom: 20px;
+    border-color: steelblue;
+    padding: 20px;
+}
+
+/* Table Styles */
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+tr > th, td {
+    border: black 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
